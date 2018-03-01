@@ -1,0 +1,18 @@
+.fbWrap,
+.fbHeading{
+    margin: 15px 100px 15px 100px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.invalid{
+    border: 1px solid #ff0000;
+    background-color: #f27979;
+}
+
+.valid{
+    border: 1px solid #0D7A1F;
+    background-color: rgba(121, 234, 117, 0.7);
+}
