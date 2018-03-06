@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana,sans-serif;
+}
+
+h1{
+    margin: 15px 0 15px 15px;
+}
+
+.bar{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.barItem{
+    float: left;
+    padding: 14px;
+    margin-left: 15px;
+    background-color: initial;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.barItem:hover{
+    background-color: #ced2d0;
+    color: #000;
+    cursor: pointer;
+}
+
+.barItemActive{
+    background-color: #ced2d0;
+    color: #000;
+}
+
+.tabItem{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+#fistTab{
+    display: block;
+}
+
+#secondTab{
+    display: none;
+}
+
+#thirdTab{
+    display: none;
+}
+
+#fourthTab{
+    display: none;
+}
